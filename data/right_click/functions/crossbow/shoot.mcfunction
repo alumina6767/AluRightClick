@@ -2,9 +2,8 @@
 # クリック後
 # @internal
 
+
+function right_click:store_cmd
+function #right_click:crossbow_shoot
+
 advancement revoke @s only right_click:crossbow/shoot
-
-tag @s add crossbow_shoot
-
-# say おらクロスボウを撃った
-schedule function right_click:crossbow/shoot2 1 append
