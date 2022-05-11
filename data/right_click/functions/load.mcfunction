@@ -2,6 +2,13 @@
 # 右クリックの検知
 # @internal
 
+#>
+# @public
+    #declare objective rc_wfs
+    #declare objective main_hand
+    #declare objective main_hand.hold_time
+    #declare objective main_hand.hold_time.before
+
 ## キノコ棒を右クリックした時増加
 scoreboard objectives add rc_wfs minecraft.used:warped_fungus_on_a_stick
 
