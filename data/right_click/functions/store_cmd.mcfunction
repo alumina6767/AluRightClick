@@ -1,6 +1,6 @@
 #> right_click:store_cmd
 # CustomModelDataを保存する
-# @internal
+# @public
 
 #>
 # @public
